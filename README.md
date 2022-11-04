@@ -1,5 +1,4 @@
 # enoqueR
-R package 
+Pacote R com funções que escrevi.
 
 
-Teste
