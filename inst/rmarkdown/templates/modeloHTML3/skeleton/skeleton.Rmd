@@ -1,0 +1,26 @@
+---
+title: "Modelo: Análise Exploratória"
+author: "Enoque Filho"
+date: "`r paste0('Teresina, ', format(Sys.time(), '%B, %Y'))`"
+output: html_document
+---
+
+```{r pacotes}
+# Confiuração -----------------------------
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE, 
+  fig.align = "center", fig.pos = "H", fig.width = 11, fig.height = 5)
+
+# Pacotes ---------------------------------
+library(tidyverse)
+library(enoqueR)
+library(kableExtra)
+
+# Confiuração -----------------------------
+theme_set(theme_classic())
+options(knitr.kable.NA = '')
+
+# Dados -----------------------------------
+dados = iris
+```
+
+Esse é um modelo de documento para a saida em HTML. Adicione aqui exemplos de como utilizar esse modelo. Apresente textos, tabelas e gráficos

@@ -1,0 +1,76 @@
+---
+title: "Modelo para Relatório HTML"
+author: "Enoque Filho"
+date: "Teresina `r format(Sys.time(), '%B, %Y')`"
+output: html_document
+---
+<!-- 
+# Capa
+
+  - Instituição
+  - Autores
+  - Titulo do relatório
+  - Cidade e ano
+-->
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
+```
+
+```{r pacotes, echo = FALSE}
+library(tidyverse)
+library(enoqueR)
+```
+Esse é um modelo de documento para a saida em HTML. Adicione aqui exemplos de como utilizar esse modelo. Apresente textos, tabelas e gráficos.
+
+# Resumo
+<!-- 
+Deve resumir o relatório.
+- Ultima parte a ser escrita
+Regras básicas
+	- Limite de palavras (200-500)
+	- NÃO deve conter referêmcoas bibliográficas
+	- Deve ser seguido de palavras-chave
+-->
+# Introdução
+<!-- 
+ Contextualizar o leitor
+ Problematização da tematica
+ Abordar rincipais coceitos
+ Objetivos
+ Linha de raciocinio geral -> especifico
+--> 
+
+# Material e metódos
+
+<!-- 
+	Descrever:
+		O que foi feio
+		Com o que foi feito
+		Quando e onde foi feito
+-->
+# Resultados
+
+<!-- 
+	Apresentar e descrever dados coletados/observados
+	- Gráficos
+	- Tabelas
+	- Estatísticas
+	- Imagens
+-->
+
+
+# Discussão
+
+<!-- 
+- Busca os motivos que justificam seus resultados
+- Comparando os resultados com estudos anteriores
+-->
+
+# Referências Bibliográficas
+<!-- 
+- Apresetar todas as fontes utilizadas
+- Devem estar citadas no texto
+- Pode ser regras especificas
+-->
