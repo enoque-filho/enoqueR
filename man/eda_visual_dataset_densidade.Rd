@@ -4,7 +4,7 @@
 \alias{eda_visual_dataset_densidade}
 \title{Visualizar densidade de variáveis numéricas}
 \usage{
-eda_visual_dataset_densidade(dados, ncols = 2)
+eda_visual_dataset_densidade(dados, ...)
 }
 \description{
 Visualizar densidade de variáveis numéricas

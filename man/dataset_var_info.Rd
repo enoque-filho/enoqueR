@@ -4,7 +4,7 @@
 \alias{dataset_var_info}
 \title{Informações relevantes das variáveis para testes estatísticos}
 \usage{
-dataset_var_info(dados, label = "na")
+dataset_var_info(dados)
 }
 \description{
 Informações relevantes das variáveis para testes estatísticos

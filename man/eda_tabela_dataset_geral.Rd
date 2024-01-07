@@ -8,11 +8,7 @@ Retorna as seguintes informações de um banco de dados:**
 - Classe das variáveis
 - Normalidade (caso numeric)
 - Niveis e frequencia (casso character ou factor)
-- Numéro de observações não ausentes em cada variável
-Pacotes Exigidos:
-- dplyr
-Atualizado em: 23/09/2022
-Mudança: Adicionado teste de normalidade KS (caso n>=5000)}
+- Numero de observações não ausentes em cada variável}
 \usage{
 eda_tabela_dataset_geral(dados)
 }
@@ -26,9 +22,5 @@ Retorna as seguintes informações de um banco de dados:**
 - Classe das variáveis
 - Normalidade (caso numeric)
 - Niveis e frequencia (casso character ou factor)
-- Numéro de observações não ausentes em cada variável
-Pacotes Exigidos:
-- dplyr
-Atualizado em: 23/09/2022
-Mudança: Adicionado teste de normalidade KS (caso n>=5000)
+- Numero de observações não ausentes em cada variável
 }

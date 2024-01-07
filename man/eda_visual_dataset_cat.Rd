@@ -4,7 +4,7 @@
 \alias{eda_visual_dataset_cat}
 \title{Visualizar variáveis categoricas}
 \usage{
-eda_visual_dataset_cat(dados, resposta = NULL, ncols = 2, pos = "stack")
+eda_visual_dataset_cat(dados, ncol = NULL, n_levels = 10)
 }
 \description{
 Visualizar variáveis categoricas

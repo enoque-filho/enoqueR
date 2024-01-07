@@ -48,3 +48,7 @@ eda_visual_dataset_resposta = function(dados, resposta, ncols){
   }
    return(gridExtra::grid.arrange(grobs = graficos, ncols))
 }
+
+
+
+
